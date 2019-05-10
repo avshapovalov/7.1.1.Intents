@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (isCurrentTimeBetween(14,00, 15,00)) {
             intent.setData(Uri.parse("http://afternoon"));
             startActivity(intent);
-        } else if (isCurrentTimeBetween(14,00, 15,00)) {
+        } else if (isCurrentTimeBetween(15,00, 18,00)) {
             intent.setData(Uri.parse("http://evening"));
             startActivity(intent);
         }
