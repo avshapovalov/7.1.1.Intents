@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (localTime.isAfter(start) && localTime.isBefore(stop)) {
             return true;
-        } else if (stop.isBefore(start)) {  // Example 11 PM to 8 AM.
+        } else if (stop.isBefore(start)) {
             return false;
         }
         return false;
